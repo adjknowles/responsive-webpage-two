@@ -1,0 +1,384 @@
+</div>
+<!-- close CMS .grid-default -->
+</div>
+<!-- close CMS .grid-row -->
+
+<script src="https://use.typekit.net/xsb4vug.js"></script>
+<script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+</script>
+
+<!-- CSS -->
+<link href="/pws/client/ux-style-guide/css/custom-grid24.min.css" rel="stylesheet">
+
+<style type="text/css">
+    /*Container*/
+
+    .content>.content-wrap>.grid-container,
+    .grid-container.custom-width {
+        max-width: 100%;
+        padding: 0
+    }
+    .content>.content-wrap,
+    .content>.content-wrap>.grid-container>.grid-default {
+        padding: 0
+    }
+
+    /*Big Hero*/
+    
+    .big-hero {
+        position: relative;
+        display: block;
+    }
+    .big-hero-cntr {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 0;
+        right: 0;
+    }
+    .big-hero-cntr h2 {
+        font-family: 'ltc-bodoni-175', serif;
+        color: #fff;
+        font-size: 42.5px;
+        line-height: 42.5px;
+    }
+
+    /*Styling*/
+    
+    .section1,
+    .section3,
+    .section4,
+    .section5 {
+        margin-bottom: 8%;
+    }
+    .section2 {
+        margin-bottom: 5%;
+    }
+    .section6 {
+        margin-bottom: 8%;
+    }
+    .section2 p,
+    .section4 p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    span.dropcap {
+        font-family: 'ltc-bodoni-175', serif;
+        float: left;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 0px;
+        padding-right: 3px;
+        padding-left: 0;
+    }
+    /**/
+    
+    p.quote {
+        font-family: 'ltc-bodoni-175', serif;
+        font-style: italic;
+        text-align: center;
+        font-size: 42px;
+        line-height: 52px;
+    }
+    span.quote-marks img {
+        text-align: center;
+        display: block;
+        width: 5%;
+        padding-bottom: 4%;
+        margin: auto;
+    }
+
+    /*BUTTON*/
+    
+    span.bb-button {
+        display: inline-block;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        font-family: Lato;
+        padding: 1.4rem 1rem;
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        min-width: 205px;
+        text-align: center;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+    span.bb-button-white {
+        color: #043655;
+        background: #fff;
+    }
+    span.bb-button-blue {
+        color: #fff;
+        background: #043655;
+    }
+    @media screen and (max-width: 768px) {
+        span.bb-button {
+            padding: 1.4rem!important;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        a.cta {
+            display: block;
+            margin: 3rem 0;
+            text-align: center
+        }
+        span.bb-button {
+            font-size: 1.6rem;
+            line-height: 3.6rem;
+            padding: 1rem 0;
+            margin-top: 0;
+            width: 90%
+        }
+    }
+    @media screen and (min-width: 1920px) {
+        span.bb-button {
+            font-size: 2.1rem;
+            line-height: 2.1rem;
+            min-width: 34rem;
+            padding: 2rem 4.5rem
+        }
+    }
+    /**/
+
+    /*Media queries*/
+    
+    @media screen and (min-width: 1920px) {
+        .big-hero-cntr h2 {
+            font-size: 85px;
+            line-height: 85px;
+        }
+        .section2 p,
+        .section4 p {
+            font-size: 25px;
+            line-height: 29px;
+        }
+        p.quote {
+            font-family: 'ltc-bodoni-175', serif;
+            text-align: center;
+            font-size: 58px;
+            line-height: 68px;
+        }
+        span.dropcap {
+            font-size: 145px;
+            line-height: 60px;
+            padding-top: 33px;
+            padding-bottom: 3%;
+            padding-right: 3px;
+            padding-left: 0;
+        }
+    }
+    @media (min-width: 1025px) and (max-width: 1440px) {
+        span.dropcap {
+            font-size: 85px;
+            padding-top: 9px;
+        }
+        span.quote-marks img {
+            width: 5%;
+            padding-bottom: 4%;
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        .section2 p,
+        .section4 p {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        p.quote {
+            font-size: 22px!important;
+            line-height: 32px!important;
+        }
+        span.dropcap {
+            font-size: 85px;
+            padding-top: 9px;
+        }
+        span.quote-marks img {
+            width: 3%;
+            padding-bottom: 2%;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .big-hero-cntr h2 {
+            font-size: 26px;
+            line-height: 26px;
+        }
+        span.quote-marks img {
+            width: 3%;
+            padding-bottom: 2%;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        p.quote {
+            font-size: 22px;
+            line-height: 32px;
+        }
+        .col-stack-mg {
+            margin-bottom: 8%;
+        }
+        .big-hero-cntr {
+            top: 26%;
+        }
+        .big-hero-cntr h2 {
+            font-size: 31px;
+            line-height: 31px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+        }
+        span.brk-line {
+            display: block;
+        }
+    }
+
+</style>
+
+<!-- Full Width Hero  -->
+<section class="grid-container custom-width section1">
+    <div class="row big-hero">
+        <div class="big-hero-cntr">
+            <h2>THE <span class="brk-line">FORMULA</span> <span class="brk-line">TO THE</span> PERFECT BAG</h2>
+            <a class="cta hidden-xs" href="/category/bluebird-designers/manu-atelier" title="Shop the collection">
+                <span class="bb-button bb-button-white">SHOP THE COLLECTION</span>
+            </a>
+        </div>
+
+        <picture>
+            <source srcset="/pws/client/images/tsab/manu/dtp-hero-manu-atelier-min.jpg" media="(min-width: 768px)" alt="The Shop at Bluebird, Manu Atlier Collection, Bags">
+            <source srcset="/pws/client/images/tsab/manu/manu-big-hero-nocopy-mob.jpg" media="(min-width: 320px)" alt="The Shop at Bluebird, Manu Atlier Collection, Bags">
+            <img srcset="/pws/client/images/tsab/manu/dtp-hero-manu-atelier-min.jpg" class="img-responsive" alt="Manu Atelier Micro Chain Strap Pristine handbag">
+        </picture>
+
+        <a class="cta visible-xs hidden-sm hidden-md hidden-lg" href="/category/bluebird-designers/manu-atelier" title="Shop the collection">
+                <span class="bb-button bb-button-blue">SHOP THE COLLECTION</span>
+        </a>
+    </div>
+</section>
+
+<!-- Intro -->
+<section class="grid-container custom-width section2 hidden-sm hidden-md visible-xs visible-lg">
+    <div class="md-col-9 md-offset-2 sm-col-12 sm-offset-1">
+        <p>
+            <span class="dropcap">T</span>he daughters of one of the oldest leather manufactures in Istanbul, Beste and Merve Manastir launched handbag brand Manu Aterlier in 2014. The talented duo tell us the ingredients to making the perfect bag and reveal the craft that goes into making their designs.
+
+            <br><br><strong>What’s the story behind the Autumn Winter 16 collection?</strong>
+
+            <br><br>
+            Our brand identity and inspiration for Autumn Winter 16 is about combining the past and the present. Turkey in the 1970s has been a great influence for this collection, when the young generation would holiday in the infamous Prince Islands of Istanbul. The destination is a place where motorised vehicles are banned, creating an oasis of peace and quiet across the nine islands.
+            <br><br>
+            Autumn Winter 16 celebrates these memories with colours and textures that form the new collection, taking inspiration from our mother’s youth and her photos of this time.
+        </p>
+    </div>
+    <div class="md-col-9 md-offset-2 sm-col-11 sm-offset-0 bp-col-10 bp-offset-1">
+        <p class="quote">
+        <span class="quote-marks"><img src="/pws/client/images/tsab/manu/quote-mark.png" class="img-responsive"></span>
+            Every woman needs a compact, classic leather shoulder bag in smooth leather which will be a timeless piece in her wardrobe, season after season.
+        </p>
+    </div>
+</section>
+
+<!-- Intro -->
+<section class="grid-container custom-width section2 visible-sm visible-md hidden-lg hidden-xs">
+    <div class="md-col-9 md-offset-2 sm-col-11 sm-offset-1">
+        <p>
+            <span class="dropcap">T</span>he daughters of one of the oldest leather manufactures in Istanbul, Beste and Merve Manastir launched handbag brand Manu Aterlier in 2014. The talented duo tell us the ingredients to making the perfect bag and reveal the craft that goes into making their designs.
+
+            <br><br><strong>What’s the story behind the Autumn Winter 16 collection?</strong>
+
+            <br><br>
+            Our brand identity and inspiration for Autumn 
+        </p>
+    </div>
+    <div class="md-col-9 md-offset-2 sm-col-11 sm-offset-0">
+        <p>
+            Winter 16 is about combining the past and the present. Turkey in the 1970s has been a great influence for this collection, when the young generation would holiday in the infamous Prince Islands of Istanbul. The destination is a place where motorised vehicles are banned, creating an oasis of peace and quiet across the nine islands.
+            <br><br>
+            Autumn Winter 16 celebrates these memories with colours and textures that form the new collection, taking inspiration from our mother’s youth and her photos of this time.
+        </p>
+    </div>
+    <div>
+        <div class="sm-col-24 sm-offset-0 bp-col-22 bp-offset-1" style="margin-top:3%;">
+            <p class="quote">
+            <span class="quote-marks"><img src="/pws/client/images/tsab/manu/quote-mark.png" class="img-responsive"></span>
+                Every woman needs a compact, classic leather shoulder bag in smooth leather which will be a timeless piece in her wardrobe, season after season.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Square 1x1 -->
+<section class="grid-container custom-width section3">
+    <div class="md-col-9 md-offset-2 sm-col-12 col-stack-mg">
+        <img src="/pws/client/images/tsab/manu/dtp-1-manu-atelier-min.jpg" alt="The Shop at Bluebird, Manu Atelier Collection, Bags" class="img-responsive" />
+    </div>
+    <div class="md-col-9 md-offset-2 sm-col-12">
+        <img src="/pws/client/images/tsab/manu/dtp-2-manu-atelier-min.jpg" alt="The Shop at Bluebird, Manu Atelier Collection, Bags" class="img-responsive" />
+    </div>
+</section>
+
+<!-- Editorial  -->
+<section class="grid-container custom-width section4">
+    <div class="md-col-9 md-offset-2 sm-col-11 sm-offset-1">
+        <p>
+            <strong>Tell us about one of your favourite pieces from the new collection.</strong> 
+            <br><br>
+
+            The Micro Pristine is one of our favourite pieces. It's the most compact version of the Pristine bag family and comes in contrasting rich colours of vegetable-tanned leather and a beautiful gold chain strap. 
+
+            <br><br>
+
+            <strong>What does the perfect handbag mean to you?</strong> 
+
+            <br><br>
+
+            The ingredients of the perfect bag are combinations of quality leather, stitching and hardware. The leather is the most important factor and needs to be made from the highest quality to last a lifetime and the finer details such as hardware and stitching are the finishing touches. For us, every woman needs a compact, classic leather shoulder bag in smooth leather which will be a timeless piece in her wardrobe, season after season.
+        </p>
+    </div>
+    <div class="md-col-9 md-offset-2 sm-col-11 sm-offset-1">
+        <p>
+            <strong>What makes Manu Atelier bags so special in comparison to other designer bags in today’s market?</strong> 
+
+            <br><br>
+
+            We offer a real story behind every piece. Each piece is created with extreme attention to detail and is shaped with a perfectionism that can only be carried out by the hands and eyes of our artisans who have been creating leather goods for decades, passing on the talent from generation to generation. We offer craftsmanship with the highest quality materials, innovative designs, contemporary functionality and a commitment to creating luxury goods at an affordable price point. 
+
+            <br><br>
+
+            <strong>Why did you choose to work with The Shop at Bluebird?</strong> 
+
+            <br><br>
+
+            The Shop at Bluebird became one of our favourite stores when we visited London for the first time. We felt an emotional bond with the store and couldn’t stop visiting. We both love space and the interior décor. It feels like a perfect fit for our brand.
+        </p>
+    </div>
+</section>
+
+<!-- Large hero 2 -->
+<section class="grid-container custom-width section5">
+    <div class="md-col-20 md-offset-2">
+        <img src="/pws/client/images/tsab/manu/dtp-3-manu-atelier-min.jpg" alt="Manu Atelier Micro Python Pristine Handbag" class="img-responsive" />
+    </div>
+</section>
+
+<!-- Square 1x1 -->
+<section class="grid-container custom-width section6">
+    <div class="md-col-9 md-offset-2 sm-col-12 col-stack-mg">
+        <img src="/pws/client/images/tsab/manu/dtp-4-manu-atelier-min.jpg" alt="Manu Atelier Mini Pristine" class="img-responsive" />
+    </div>
+    <div class="md-col-9 md-offset-2 sm-col-12">
+        <img src="/pws/client/images/tsab/manu/dtp-5-manu-atelier-min.jpg" alt="Manu Atelier Micro Pristine" class="img-responsive" />
+    </div>
+    <div class="row">
+        <a class="cta" href="/category/bluebird-designers/manu-atelier" title="Shop the collection" style="text-align:center; display:block;">
+            <span class="bb-button bb-button-blue" style="margin-top:5%;">SHOP THE COLLECTION</span>
+        </a>
+    </div>
+</section>
+
+<!-- see start of CMS -->
+<div>
+<!-- open blank div -->
+<div>
+<!-- open blank div -->
